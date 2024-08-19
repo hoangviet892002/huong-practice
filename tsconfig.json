@@ -13,7 +13,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {},
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "outDir": "./dist",
     "esModuleInterop": true
   },
   "files": [],
